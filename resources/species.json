@@ -1,12 +1,14 @@
 {
     "species": {
-        "species1": [],
-        "species2": []
+        "plaincat": ["dom_inh"],
+        "colorcat": ["dom_inh"],
+        "acat": ["rec_inh"]
     },
-    "ran_weights": [1, 1],
+    "ran_weights": [2, 3, 1],
     "in_weights": {
-        "species1": [1, 1],
-        "species2": [1, 1]
+        "plaincat": [1, 1, 1],
+        "colorcat": [1, 1, 1],
+        "acat": [1, 1, 1]
     },
     "comment": [
         "look at the official documentation for a list of all species tags.",
